@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DCE125A51DE06221003EFC56 /* MessagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE125A41DE06221003EFC56 /* MessagesTableViewController.swift */; };
+		DCE125A71DE062F0003EFC56 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE125A61DE062F0003EFC56 /* Database.swift */; };
 		E7A4AEF71DDF5CE9006B1466 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A4AEF61DDF5CE9006B1466 /* AppDelegate.swift */; };
-		E7A4AEF91DDF5CEA006B1466 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A4AEF81DDF5CE9006B1466 /* ViewController.swift */; };
+		E7A4AEF91DDF5CEA006B1466 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A4AEF81DDF5CE9006B1466 /* ContactsViewController.swift */; };
 		E7A4AEFC1DDF5CEA006B1466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A4AEFA1DDF5CEA006B1466 /* Main.storyboard */; };
 		E7A4AEFE1DDF5CEA006B1466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7A4AEFD1DDF5CEA006B1466 /* Assets.xcassets */; };
 		E7A4AF011DDF5CEA006B1466 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A4AEFF1DDF5CEA006B1466 /* LaunchScreen.storyboard */; };
@@ -53,9 +55,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DCE125A41DE06221003EFC56 /* MessagesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesTableViewController.swift; sourceTree = "<group>"; };
+		DCE125A61DE062F0003EFC56 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		E7A4AEF31DDF5CE9006B1466 /* SiriKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiriKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A4AEF61DDF5CE9006B1466 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E7A4AEF81DDF5CE9006B1466 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7A4AEF81DDF5CE9006B1466 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		E7A4AEFB1DDF5CEA006B1466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7A4AEFD1DDF5CEA006B1466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7A4AF001DDF5CEA006B1466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -121,11 +125,13 @@
 			isa = PBXGroup;
 			children = (
 				E7A4AEF61DDF5CE9006B1466 /* AppDelegate.swift */,
-				E7A4AEF81DDF5CE9006B1466 /* ViewController.swift */,
+				E7A4AEF81DDF5CE9006B1466 /* ContactsViewController.swift */,
+				DCE125A41DE06221003EFC56 /* MessagesTableViewController.swift */,
 				E7A4AEFA1DDF5CEA006B1466 /* Main.storyboard */,
 				E7A4AEFD1DDF5CEA006B1466 /* Assets.xcassets */,
 				E7A4AEFF1DDF5CEA006B1466 /* LaunchScreen.storyboard */,
 				E7A4AF021DDF5CEA006B1466 /* Info.plist */,
+				DCE125A61DE062F0003EFC56 /* Database.swift */,
 			);
 			path = SiriKitExample;
 			sourceTree = "<group>";
@@ -294,7 +300,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7A4AEF91DDF5CEA006B1466 /* ViewController.swift in Sources */,
+				E7A4AEF91DDF5CEA006B1466 /* ContactsViewController.swift in Sources */,
+				DCE125A51DE06221003EFC56 /* MessagesTableViewController.swift in Sources */,
+				DCE125A71DE062F0003EFC56 /* Database.swift in Sources */,
 				E7A4AEF71DDF5CE9006B1466 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -548,6 +556,7 @@
 				E7A4AF071DDF5CEA006B1466 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7A4AF261DDF5D9F006B1466 /* Build configuration list for PBXNativeTarget "SiriKitExampleSiriIntentUI" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +565,7 @@
 				E7A4AF281DDF5D9F006B1466 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7A4AF291DDF5D9F006B1466 /* Build configuration list for PBXNativeTarget "SiriKitExampleSiriIntent" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +574,7 @@
 				E7A4AF2B1DDF5D9F006B1466 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
