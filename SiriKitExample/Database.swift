@@ -18,9 +18,16 @@ class Contact {
     }
     
     class func createData() -> [Contact] {
-        let messages = ["Hey", "How are you?"].map({Message(text: $0)})
-        
-        return ["Vasya", "Vova", "Katya"].map({Contact(name: $0, messages: messages)})
+        if let result = UserDefaults.standard.object(forKey: "data") as? [Contact] {
+            return result
+        }
+        else {
+            let messages = ["Hey", "How are you?"].map({Message(text: $0)})
+            let result =  ["Vasya", "Vova", "Katya"].map({Contact(name: $0, messages: messages)})
+            UserDefaults.standard.set(result, forKey: "data")
+            UserDefaults.standard.synchronize()
+            return result
+        }
     }
 }
 
