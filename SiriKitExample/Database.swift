@@ -7,34 +7,55 @@
 //
 
 import Foundation
+import RealmSwift
+import Realm
 
-class Contact {
-    var name: String = ""
-    var messages: [Message] = []
+func CustomRealm() -> Realm? {
+    let directory: URL = FileManager.default.containerURL(forSecurityApplicationGroupIdentifier: "group.com.ellinakuznecova.SiriKitExample")!
+    let realmPath = directory.appendingPathComponent("db.realm")
     
-    init(name: String, messages: [Message]) {
-        self.name = name
-        self.messages = messages
+    var config = Realm.Configuration()
+    config.fileURL = realmPath
+    
+    do {
+        let realm = try Realm(configuration: config)
+        return realm
     }
-    
-    class func createData() -> [Contact] {
-        if let result = UserDefaults.standard.object(forKey: "data") as? [Contact] {
-            return result
-        }
-        else {
-            let messages = ["Hey", "How are you?"].map({Message(text: $0)})
-            let result =  ["Vasya", "Vova", "Katya"].map({Contact(name: $0, messages: messages)})
-            UserDefaults.standard.set(result, forKey: "data")
-            UserDefaults.standard.synchronize()
-            return result
-        }
+    catch let error {
+        print(error)
+        return nil
     }
 }
 
-class Message {
-    var text: String = ""
+class Contact: Object {
+    dynamic var name: String = ""
+    var messages = List<Message>()
     
-    init(text: String) {
-        self.text = text
+    class func createData() -> Results<Contact>? {
+        let realm = CustomRealm()
+        if realm?.objects(Contact.self).count == 0 {
+            try? realm?.write {
+                let messages = List<Message>()
+                ["Hey", "How are you?"].forEach({ (value) in
+                    let message = Message()
+                    message.text = value
+                    messages.append(message)
+                })
+                
+                var contacts: [Contact] = []
+                ["Jack", "James", "Jessica"].forEach({
+                    let contact = Contact()
+                    contact.name = $0
+                    contact.messages = messages
+                    contacts.append(contact)
+                })
+                realm?.add(contacts)
+            }
+        }
+        return realm?.objects(Contact.self)
     }
+}
+
+class Message: Object {
+    dynamic var text: String = ""
 }

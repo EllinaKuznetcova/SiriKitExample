@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59D331B988D3D6949FE5A9B8 /* Pods_Abstract_SiriKitExampleSiriIntentUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FAC4BFE9BF6AC6EA2940F1D /* Pods_Abstract_SiriKitExampleSiriIntentUI.framework */; };
+		BFD1683CA52989D7F12BB4D9 /* Pods_Abstract_SiriKitExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3392302E63104A915382C493 /* Pods_Abstract_SiriKitExample.framework */; };
+		C68D7A6BE925C75E4DE06A57 /* Pods_Abstract_SiriKitExampleSiriIntent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7D19EACD283BD9B6A7583A2 /* Pods_Abstract_SiriKitExampleSiriIntent.framework */; };
 		DCE125A51DE06221003EFC56 /* MessagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE125A41DE06221003EFC56 /* MessagesTableViewController.swift */; };
 		DCE125A71DE062F0003EFC56 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE125A61DE062F0003EFC56 /* Database.swift */; };
+		DCE125A91DE0CF8B003EFC56 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE125A61DE062F0003EFC56 /* Database.swift */; };
+		DCE125AD1DE1CDB4003EFC56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7A4AEFD1DDF5CEA006B1466 /* Assets.xcassets */; };
 		E7A4AEF71DDF5CE9006B1466 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A4AEF61DDF5CE9006B1466 /* AppDelegate.swift */; };
 		E7A4AEF91DDF5CEA006B1466 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A4AEF81DDF5CE9006B1466 /* ContactsViewController.swift */; };
 		E7A4AEFC1DDF5CEA006B1466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A4AEFA1DDF5CEA006B1466 /* Main.storyboard */; };
@@ -55,8 +60,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C7C26ABE69CF3D72886A9B4 /* Pods-Abstract-SiriKitExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-SiriKitExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-SiriKitExample/Pods-Abstract-SiriKitExample.release.xcconfig"; sourceTree = "<group>"; };
+		3392302E63104A915382C493 /* Pods_Abstract_SiriKitExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abstract_SiriKitExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A81F6FBA91784F8B3978A7B /* Pods-Abstract-SiriKitExampleSiriIntentUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-SiriKitExampleSiriIntentUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-SiriKitExampleSiriIntentUI/Pods-Abstract-SiriKitExampleSiriIntentUI.debug.xcconfig"; sourceTree = "<group>"; };
+		46800E7BAEB23232C772FF94 /* Pods-Abstract-SiriKitExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-SiriKitExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-SiriKitExample/Pods-Abstract-SiriKitExample.debug.xcconfig"; sourceTree = "<group>"; };
+		7FAC4BFE9BF6AC6EA2940F1D /* Pods_Abstract_SiriKitExampleSiriIntentUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abstract_SiriKitExampleSiriIntentUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7D19EACD283BD9B6A7583A2 /* Pods_Abstract_SiriKitExampleSiriIntent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Abstract_SiriKitExampleSiriIntent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48EF2FC850E94B9D933106F /* Pods-Abstract-SiriKitExampleSiriIntent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-SiriKitExampleSiriIntent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-SiriKitExampleSiriIntent/Pods-Abstract-SiriKitExampleSiriIntent.debug.xcconfig"; sourceTree = "<group>"; };
+		BC4386F6773960D85EF45663 /* Pods-Abstract-SiriKitExampleSiriIntent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-SiriKitExampleSiriIntent.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-SiriKitExampleSiriIntent/Pods-Abstract-SiriKitExampleSiriIntent.release.xcconfig"; sourceTree = "<group>"; };
+		C33C7A0939FE73EE93CF75FF /* Pods-Abstract-SiriKitExampleSiriIntentUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abstract-SiriKitExampleSiriIntentUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abstract-SiriKitExampleSiriIntentUI/Pods-Abstract-SiriKitExampleSiriIntentUI.release.xcconfig"; sourceTree = "<group>"; };
 		DCE125A41DE06221003EFC56 /* MessagesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesTableViewController.swift; sourceTree = "<group>"; };
 		DCE125A61DE062F0003EFC56 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		DCE125A81DE0CE78003EFC56 /* SiriKitExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SiriKitExample.entitlements; sourceTree = "<group>"; };
+		DCE125AA1DE0E51D003EFC56 /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		DCE125AB1DE1B819003EFC56 /* SiriKitExampleSiriIntent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SiriKitExampleSiriIntent.entitlements; sourceTree = "<group>"; };
 		E7A4AEF31DDF5CE9006B1466 /* SiriKitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiriKitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A4AEF61DDF5CE9006B1466 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7A4AEF81DDF5CE9006B1466 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD1683CA52989D7F12BB4D9 /* Pods_Abstract_SiriKitExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68D7A6BE925C75E4DE06A57 /* Pods_Abstract_SiriKitExampleSiriIntent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,12 +113,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7A4AF181DDF5D9F006B1466 /* IntentsUI.framework in Frameworks */,
+				59D331B988D3D6949FE5A9B8 /* Pods_Abstract_SiriKitExampleSiriIntentUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9734D9A60969CCE9172DBEE5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46800E7BAEB23232C772FF94 /* Pods-Abstract-SiriKitExample.debug.xcconfig */,
+				2C7C26ABE69CF3D72886A9B4 /* Pods-Abstract-SiriKitExample.release.xcconfig */,
+				B48EF2FC850E94B9D933106F /* Pods-Abstract-SiriKitExampleSiriIntent.debug.xcconfig */,
+				BC4386F6773960D85EF45663 /* Pods-Abstract-SiriKitExampleSiriIntent.release.xcconfig */,
+				3A81F6FBA91784F8B3978A7B /* Pods-Abstract-SiriKitExampleSiriIntentUI.debug.xcconfig */,
+				C33C7A0939FE73EE93CF75FF /* Pods-Abstract-SiriKitExampleSiriIntentUI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E7A4AEEA1DDF5CE9006B1466 = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +141,7 @@
 				E7A4AF191DDF5D9F006B1466 /* SiriKitExampleSiriIntentUI */,
 				E7A4AF161DDF5D9F006B1466 /* Frameworks */,
 				E7A4AEF41DDF5CE9006B1466 /* Products */,
+				9734D9A60969CCE9172DBEE5 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +158,7 @@
 		E7A4AEF51DDF5CE9006B1466 /* SiriKitExample */ = {
 			isa = PBXGroup;
 			children = (
+				DCE125A81DE0CE78003EFC56 /* SiriKitExample.entitlements */,
 				E7A4AEF61DDF5CE9006B1466 /* AppDelegate.swift */,
 				E7A4AEF81DDF5CE9006B1466 /* ContactsViewController.swift */,
 				DCE125A41DE06221003EFC56 /* MessagesTableViewController.swift */,
@@ -132,6 +167,7 @@
 				E7A4AEFF1DDF5CEA006B1466 /* LaunchScreen.storyboard */,
 				E7A4AF021DDF5CEA006B1466 /* Info.plist */,
 				DCE125A61DE062F0003EFC56 /* Database.swift */,
+				DCE125AA1DE0E51D003EFC56 /* BridgeHeader.h */,
 			);
 			path = SiriKitExample;
 			sourceTree = "<group>";
@@ -139,6 +175,7 @@
 		E7A4AF0D1DDF5D9F006B1466 /* SiriKitExampleSiriIntent */ = {
 			isa = PBXGroup;
 			children = (
+				DCE125AB1DE1B819003EFC56 /* SiriKitExampleSiriIntent.entitlements */,
 				E7A4AF0E1DDF5D9F006B1466 /* IntentHandler.swift */,
 				E7A4AF101DDF5D9F006B1466 /* Info.plist */,
 			);
@@ -149,6 +186,9 @@
 			isa = PBXGroup;
 			children = (
 				E7A4AF171DDF5D9F006B1466 /* IntentsUI.framework */,
+				3392302E63104A915382C493 /* Pods_Abstract_SiriKitExample.framework */,
+				A7D19EACD283BD9B6A7583A2 /* Pods_Abstract_SiriKitExampleSiriIntent.framework */,
+				7FAC4BFE9BF6AC6EA2940F1D /* Pods_Abstract_SiriKitExampleSiriIntentUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,10 +210,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7A4AF051DDF5CEA006B1466 /* Build configuration list for PBXNativeTarget "SiriKitExample" */;
 			buildPhases = (
+				04956A0B55F114BBED335290 /* [CP] Check Pods Manifest.lock */,
 				E7A4AEEF1DDF5CE9006B1466 /* Sources */,
 				E7A4AEF01DDF5CE9006B1466 /* Frameworks */,
 				E7A4AEF11DDF5CE9006B1466 /* Resources */,
 				E7A4AF2C1DDF5D9F006B1466 /* Embed App Extensions */,
+				9D121B85455A1B36F1645BF0 /* [CP] Embed Pods Frameworks */,
+				445E2AC53E27CF7986D2D639 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7A4AF291DDF5D9F006B1466 /* Build configuration list for PBXNativeTarget "SiriKitExampleSiriIntent" */;
 			buildPhases = (
+				07E0009B2638911CC38F8E57 /* [CP] Check Pods Manifest.lock */,
 				E7A4AF081DDF5D9F006B1466 /* Sources */,
 				E7A4AF091DDF5D9F006B1466 /* Frameworks */,
 				E7A4AF0A1DDF5D9F006B1466 /* Resources */,
+				E2DABF0D202C51879F6063BB /* [CP] Embed Pods Frameworks */,
+				94DA09C1A32D26FD4F1C10F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,9 +253,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E7A4AF261DDF5D9F006B1466 /* Build configuration list for PBXNativeTarget "SiriKitExampleSiriIntentUI" */;
 			buildPhases = (
+				D375FE77894FB54E054D7E0E /* [CP] Check Pods Manifest.lock */,
 				E7A4AF111DDF5D9F006B1466 /* Sources */,
 				E7A4AF121DDF5D9F006B1466 /* Frameworks */,
 				E7A4AF131DDF5D9F006B1466 /* Resources */,
+				7E352B052C5775C6E60FFDD6 /* [CP] Embed Pods Frameworks */,
+				1BEE734CF9EBC5DD8E36BF47 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,11 +283,21 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = C9ZJ96D59R;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					E7A4AF0B1DDF5D9F006B1466 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = C9ZJ96D59R;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					E7A4AF141DDF5D9F006B1466 = {
 						CreatedOnToolsVersion = 8.1;
@@ -289,11 +348,150 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE125AD1DE1CDB4003EFC56 /* Assets.xcassets in Resources */,
 				E7A4AF1E1DDF5D9F006B1466 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04956A0B55F114BBED335290 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		07E0009B2638911CC38F8E57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1BEE734CF9EBC5DD8E36BF47 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-SiriKitExampleSiriIntentUI/Pods-Abstract-SiriKitExampleSiriIntentUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		445E2AC53E27CF7986D2D639 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-SiriKitExample/Pods-Abstract-SiriKitExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E352B052C5775C6E60FFDD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-SiriKitExampleSiriIntentUI/Pods-Abstract-SiriKitExampleSiriIntentUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94DA09C1A32D26FD4F1C10F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-SiriKitExampleSiriIntent/Pods-Abstract-SiriKitExampleSiriIntent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D121B85455A1B36F1645BF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-SiriKitExample/Pods-Abstract-SiriKitExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D375FE77894FB54E054D7E0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2DABF0D202C51879F6063BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Abstract-SiriKitExampleSiriIntent/Pods-Abstract-SiriKitExampleSiriIntent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E7A4AEEF1DDF5CE9006B1466 /* Sources */ = {
@@ -311,6 +509,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE125A91DE0CF8B003EFC56 /* Database.swift in Sources */,
 				E7A4AF0F1DDF5D9F006B1466 /* IntentHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,34 +658,41 @@
 		};
 		E7A4AF061DDF5CEA006B1466 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46800E7BAEB23232C772FF94 /* Pods-Abstract-SiriKitExample.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SiriKitExample/SiriKitExample.entitlements;
 				DEVELOPMENT_TEAM = C9ZJ96D59R;
 				INFOPLIST_FILE = SiriKitExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ellinakuznetcova.SiriKitExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = SiriKitExample/BridgeHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		E7A4AF071DDF5CEA006B1466 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C7C26ABE69CF3D72886A9B4 /* Pods-Abstract-SiriKitExample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SiriKitExample/SiriKitExample.entitlements;
 				DEVELOPMENT_TEAM = C9ZJ96D59R;
 				INFOPLIST_FILE = SiriKitExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ellinakuznetcova.SiriKitExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = SiriKitExample/BridgeHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		E7A4AF271DDF5D9F006B1466 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A81F6FBA91784F8B3978A7B /* Pods-Abstract-SiriKitExampleSiriIntentUI.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = C9ZJ96D59R;
 				INFOPLIST_FILE = SiriKitExampleSiriIntentUI/Info.plist;
@@ -500,6 +706,7 @@
 		};
 		E7A4AF281DDF5D9F006B1466 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C33C7A0939FE73EE93CF75FF /* Pods-Abstract-SiriKitExampleSiriIntentUI.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = C9ZJ96D59R;
 				INFOPLIST_FILE = SiriKitExampleSiriIntentUI/Info.plist;
@@ -513,7 +720,9 @@
 		};
 		E7A4AF2A1DDF5D9F006B1466 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B48EF2FC850E94B9D933106F /* Pods-Abstract-SiriKitExampleSiriIntent.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SiriKitExampleSiriIntent/SiriKitExampleSiriIntent.entitlements;
 				DEVELOPMENT_TEAM = C9ZJ96D59R;
 				INFOPLIST_FILE = SiriKitExampleSiriIntent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
@@ -526,7 +735,9 @@
 		};
 		E7A4AF2B1DDF5D9F006B1466 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC4386F6773960D85EF45663 /* Pods-Abstract-SiriKitExampleSiriIntent.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SiriKitExampleSiriIntent/SiriKitExampleSiriIntent.entitlements;
 				DEVELOPMENT_TEAM = C9ZJ96D59R;
 				INFOPLIST_FILE = SiriKitExampleSiriIntent/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";

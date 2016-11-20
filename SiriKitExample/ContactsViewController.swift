@@ -27,17 +27,17 @@ class ContactsViewController: UITableViewController {
 
 extension ContactsViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.contacts.count
+        return self.contacts?.count ?? 0
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "basic")!
-        cell.textLabel?.text = contacts[indexPath.row].name
+        cell.textLabel?.text = contacts?[indexPath.row].name
         return cell
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.selectedContact = self.contacts[indexPath.row]
+        self.selectedContact = self.contacts?[indexPath.row]
         self.performSegue(withIdentifier: "toDialog", sender: self)
     }
 }
